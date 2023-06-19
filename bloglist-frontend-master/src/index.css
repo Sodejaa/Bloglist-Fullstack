@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.blogApp {
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    padding: 10px;
+}
+
+.message {
+    color: darkgreen;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.errorMessage {
+    color: red;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.blog {
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: lightcyan;
+}
+
+.removeButton {
+    background-color: lightblue;
+    border-color: lightblue;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.likeButton {
+    background-color: lightgreen;
+    border-color: lightgreen;
+    margin-left: 5px;
+}
+
+.titleAndAuthor {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.url {
+    margin-bottom: 3px;
+}
+
+.likes {
+    margin-bottom: 3px;
+}
+
+.newBlogButton {
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
+.logoutButton {
+    margin-left: 5px;
+    background-color: red;
+    border-color: red;
+}
+
+.basicText {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.inputBox {
+    margin-left: 5px;
+}
+
+.createButton {
+    margin-bottom: 5px;
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+.cancelButton {
+    margin-bottom: 5px;
+    background-color: red;
+    border-color: red;
+}
+
+.loginButton {
+    margin-bottom: 5px;
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
